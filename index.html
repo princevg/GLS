@@ -4,7 +4,21 @@
 	<title>GLS Fullstack Exercise</title>
 	<style type="text/css">
 .myClass1 {padding: 10px 20px;border: 1px solid green;margin-bottom: 50px;}
-
+.header {text-align: center}
+.header-container {
+	margin-bottom: 20px;
+}
+.explore {
+	background-color: blue;
+	color: white;
+	cursor: pointer!important;
+}
+.explore:hover,
+.explore:focus,
+.explore:active {
+	color: white!important;
+	cursor: pointer!important;
+}
 .myClass2 {padding: 50px;border: 1px solid red;display: inline-block;position: absolute;right: 0px;}
 
 .myClass3 {padding: 50px;border: 1px solid blue;display: inline-block;position: absolute;left: 0px; bottom: 0px;}		
@@ -15,7 +29,11 @@
 	<script type="text/javascript" src="libs/js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="libs/js/bootstrap-tour-standalone.min.js"></script>
 	<script type="text/javascript" src="player.js"></script>
-	<h1>GLS Fullstack Exercise</h1>
+	<div class="header-container">
+	<h1 class="header">GLS Fullstack Exercise</h1>
+	new to the app? please go through a tour.
+	<button class="btn explore">Explore app</button>
+</div>
 	<div class="myClass1" id="id_1">First tip on me using id.</div>
 
 	<div class="myClass2">Second tip on me using class.</div>
