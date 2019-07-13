@@ -14,3 +14,6 @@ If you use the application for the first time
 3) We have next and prev buttons to navigate through the nexta nd previous guides
 4) End the tour with the end button in each guide any time.
 
+### Demo of the app
+The app is hosted in paperplane.io
+you can find the <a href="http://gls.paperplane.io">demo here</a>
