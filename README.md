@@ -16,4 +16,4 @@ If you use the application for the first time
 
 ### Demo of the app
 The app is hosted in paperplane.io
-you can find the <a href="http://gls.paperplane.io">demo here</a>
+you can find the <a href="http://gls.paperplane.io" target="_blank">demo here</a>
